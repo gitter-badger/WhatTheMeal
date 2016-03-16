@@ -1,5 +1,17 @@
 version: 1.0.{build}
+init:
+  - git config --global core.autocrlf true
+  
+install:
+ - cmd: nuget sources add -Name api.nuget.org -Source https://api.nuget.org/v3/index.json
+ - ps: dnvm update-self
+ - ps: dnvm upgrade
+ - ps: dnvm install 1.0.0-rc1-update1
+ - ps: dnvm list
+ - ps: dnvm use 1.0.0-rc1-update1
+
 before_build:
 - cmd: dnu restore
+
 build:
   verbosity: normal
