@@ -7,7 +7,9 @@
   "dependencies": {
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
-    "react.js": "0.14.7"
+    "react.js": "0.14.7",
+    "bootstrap": "4.0.0-alpha2",
+    "jQuery": "2.2.1"
   },
 
   "commands": {
