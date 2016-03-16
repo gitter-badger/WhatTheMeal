@@ -1,0 +1,18 @@
+language: csharp
+solution: WhatTheMeal.sln
+sudo: required
+dist: trusty
+env:
+  - MONO_THREADS_PER_CPU=2000
+mono:
+  - 4.0.5
+install:
+  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - dnvm upgrade
+  - dnu restore
+os:
+  - linux
+  - osx
+
+script:
+  - dnu build **/project.json
