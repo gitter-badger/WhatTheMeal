@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNet.Mvc;
-
-namespace WhatTheMeal.Controllers
+﻿namespace WhatTheMeal.Controllers
 {
+    using Microsoft.AspNet.Mvc;
+
     public class HomeController : Controller
     {
         public IActionResult Index()
