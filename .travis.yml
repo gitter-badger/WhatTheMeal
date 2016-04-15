@@ -16,3 +16,6 @@ os:
 
 script:
   - dnu build **/project.json
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
