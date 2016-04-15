@@ -8,6 +8,6 @@
 
 <H4>Code Coverage</H4>
 
-|develop|master|
+|dev|master|
 |:--:|:--:|
 |[![codecov.io](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal/coverage.svg?branch=master)](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal?branch=dev)|[![codecov.io](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal/coverage.svg?branch=master)](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal?branch=master)|
