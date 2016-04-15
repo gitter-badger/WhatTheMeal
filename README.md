@@ -11,3 +11,4 @@
 |dev|master|
 |:--:|:--:|
 |[![codecov.io](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal/coverage.svg?branch=master)](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal?branch=dev)|[![codecov.io](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal/coverage.svg?branch=master)](https://codecov.io/github/WhatTheMealTeam/WhatTheMeal?branch=master)|
+https://github.com/codecov/example-csharp
